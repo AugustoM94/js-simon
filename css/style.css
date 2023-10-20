@@ -1,0 +1,8 @@
+.container {
+    margin: 50px auto;
+    background-color: cornsilk;
+}
+
+button {
+    display: block;
+}

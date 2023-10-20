@@ -21,4 +21,14 @@ function visualizzaNumeri() {
         abilitaInput(numeriCasuali);
     }, 30000); 
 
+    function abilitaInput(numeriCasuali) {
+        let inputContainer = document.getElementById('input-container');
+    
+        for (let i = 0; i < 5; i++) {
+            let input = document.createElement('input');
+            input.type = 'number';
+            input.placeholder = 'Inserisci il numero che ricordi';
+            inputContainer.appendChild(input);
+        }
+    }
 }
