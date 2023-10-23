@@ -39,7 +39,7 @@ function abilitaInput(numeriCasuali) {
         let indovinati = [];
         let inputFields = inputContainer.getElementsByTagName('input');
         for (let i = 0; i < 5; i++) {
-            let numeroInserito = parseInt(inputFields[i].value, 10);
+            let numeroInserito = parseInt(inputFields[i].value);
             if (!isNaN(numeroInserito) && numeriCasuali.includes(numeroInserito)) {
                 indovinati.push(numeroInserito);
             }
